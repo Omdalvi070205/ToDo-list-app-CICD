@@ -98,11 +98,7 @@ Execute: Jenkins automatically starts the pipeline, pulling the latest code.
 
 Deploy: The Jenkinsfile runs through the build and deploy stages, and your updated application will be live on your server within minutes.
 
-You can view the live application at http://<your-server-ip>:8000.
+You can view the live application at 
+### http://http://54.210.38.136/:8000.
 
-Key Files
-Jenkinsfile: Defines the entire CI/CD pipeline with build, test, and deploy stages.
 
-Dockerfile: Contains the instructions to build a production-ready Docker image for the Django application, using Gunicorn as the web server.
-
-requirements.txt: Lists the Python dependencies required for the project.
