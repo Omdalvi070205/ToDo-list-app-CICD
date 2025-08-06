@@ -99,6 +99,6 @@ Execute: Jenkins automatically starts the pipeline, pulling the latest code.
 Deploy: The Jenkinsfile runs through the build and deploy stages, and your updated application will be live on your server within minutes.
 
 You can view the live application at 
-### http://http://54.210.38.136/:8000.
+### http://54.210.38.136:8000.
 
 
